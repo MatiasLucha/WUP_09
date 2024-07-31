@@ -92,6 +92,8 @@ Perch2=lm(Weight~Height+Width, data=Perch)
 summary.lm(Perch2)
 ```
 
+The best two regressor model predict weight using Height and Width. 
+
 ## Pike
 
 ### Best Models
