@@ -74,7 +74,7 @@ library(leaps)
 regsubsets.out <-
     regsubsets(Weight ~ .,
                data = Perch,
-               nbest = 2,       # 1 best model for each number of predictors
+               nbest = 1,       # 1 best model for each number of predictors
                nvmax = NULL,    # NULL for no limit on number of variables
                force.in = NULL, force.out = NULL,
                method = "exhaustive")
@@ -99,11 +99,3 @@ The best two regressor model predict weight using Height and Width.
 ### Best Models
 
 ### Best Two regressor model
-
-## Roach
-
-### Best Models
-
-### Best Two regressor model
-
-## Final Summary Statements
